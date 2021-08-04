@@ -23,6 +23,6 @@ public class SpringBootJpa2Application {
 	      return new Docket(DocumentationType.SWAGGER_2).select()
 	         .apis(RequestHandlerSelectors.basePackage("com")).build();
 	   }
-	
+	//cmd
 	//http://localhost:9090/swagger-ui/index.html
 }
